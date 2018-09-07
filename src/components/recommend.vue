@@ -17,25 +17,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data: function () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1701/c0/c0899de1bcef6f9a3.img.jpg_200x200_b5b00164.jpg',
-        title: '南昌新中原大剧院',
-        desc: '好看的剧院'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1610/16/165075d3fcbe7c8ba3.water.jpg_200x200_dacfbf65.jpg',
-        title: '南昌万达海洋乐园',
-        desc: '浪漫南昌首站，浪漫的海洋主题乐园'
-      }, {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/201310/08/8a668cb269731796c8d65eac.png_200x200_4af34935.png',
-        title: '南昌琴岛之夜',
-        desc: '浪漫爱琴岛'
-      }]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>
