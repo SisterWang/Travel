@@ -31,10 +31,10 @@ export default {
     }
   },
   methods: {
-    handleBannerClick() {
+    handleBannerClick () {
       this.showGallary = true
     },
-    handleGallaryClose() {
+    handleGallaryClose () {
       this.showGallary = false
     }
   },
